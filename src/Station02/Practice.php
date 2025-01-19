@@ -36,3 +36,4 @@ class Practice
 }
 
 (new Practice())->main();
+

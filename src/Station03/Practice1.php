@@ -7,6 +7,16 @@ class Practice1
     public function main(): void
     {
         // ここにサンプルコードを記述
+        $a = 'bar';
+        switch ($a) {
+            case 'foo':
+                echo '$aはfooです';
+                break;
+            case'bar':
+            case 'baz':
+                echo '$aはbarかbazです';
+                break;
+        }
     }
 }
 
