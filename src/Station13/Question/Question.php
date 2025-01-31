@@ -6,5 +6,7 @@ class Question
 {
     public function main(): void
     {
+        Car::turnRight();
+        Car::backLeft();
     }
 }
