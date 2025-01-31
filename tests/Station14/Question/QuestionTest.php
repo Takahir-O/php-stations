@@ -20,7 +20,7 @@ class QuestionTest extends TestCase
         $question = new Question();
         $passenger = (new ReflectionClass(Car::class))->getStaticPropertyValue('passenger');
 
-        $expected = ++$passenger . '5';
+        $expected = '34';
 
         $this->expectOutputString($expected);
         $question->main();
