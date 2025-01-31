@@ -14,7 +14,7 @@ class Dog
 
     public function run(): void
     {
-        echo '走る';
+        return '走る';
     }
 
     public function addAge(int $year): int
